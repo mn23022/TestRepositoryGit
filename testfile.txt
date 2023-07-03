@@ -1,1 +1,16 @@
 Hi , This is my first test file I uploaded using git commands from my local PC
+
+https://github.com/mn23022/TestRepositoryGit.git
+
+Set Up Git:
+git config --global user.name "mn23022"
+git config --global user.email "mn23022@gmail.com"
+
+other commands
+git clone https://github.com/mn23022/TestRepositoryGit.git
+git add testfile.txt
+git status
+git commit -m "This is my first test fie" testfile.txt
+git push -u origin master
+git status
+git remote add origin master (url)
